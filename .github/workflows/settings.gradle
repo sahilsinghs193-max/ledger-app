@@ -1,0 +1,2 @@
+rootProject.name = "LedgerApp"
+include ':app'
