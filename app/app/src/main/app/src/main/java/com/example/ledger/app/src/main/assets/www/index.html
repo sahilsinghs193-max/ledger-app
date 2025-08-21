@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Simple Ledger</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="container">
+  <h1>Simple Ledger</h1>
+  <form id="entryForm">
+    <input type="date" id="date" />
+    <input type="text" id="desc" placeholder="Description" />
+    <input type="number" id="amount" placeholder="Amount" />
+    <select id="type"><option value="credit">Credit</option><option value="debit">Debit</option></select>
+    <button type="submit">Add</button>
+  </form>
+  <div id="ledger"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
